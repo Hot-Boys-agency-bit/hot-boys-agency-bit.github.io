@@ -45,22 +45,23 @@
 <div class="section_header text-center">
 				<h2>Разместить анкету</h2>
      <div class="container">
+	     <form>
               <h4>Личные данные</h4>
 
               <p><b>Ф.И.О.</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" name="name" class="form-control" size="25">
               </p>
               <p><b>Дата рождения:</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Адрес проживания:</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text"  class="form-control" size="25">
               </p>
               <p><b>Гражданство:</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text"  class="form-control" size="25">
               </p>
               <p><b>Ориентация:</b><br>
-               <input id="tt" type="text" size="25">
+               <input id="tt" type="text" class="form-control" size="25">
               </p>
                
 	 
@@ -69,53 +70,53 @@
 
                        <h4>Контакты</h4>
               <p><b>Мобильный телефон</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Дом.телефон</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>E-mail</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
              </p>
                <p><b>WhatsApp</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
              </p>
               <p><b>Telegram</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
              </p>
 	 
 	
 
              <h4>Внешность</h4>
               <p><b>Цвет  глаз</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Цвет волос</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Рост</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Вес</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Наличие татуировок</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Достоинство</b><br>
-                 <input id="tt" type="text" size="25">
+                 <input id="tt" type="text" class="form-control" size="25">
               </p>   
               
                     <h4>Доп.информация</h4>
               <p><b>Образование</b><br>
-               <input id="tt" type="text" size="25">
+               <input id="tt" type="text" class="form-control" size="25">
               </p>
               <p><b>Знание языков</b><br>
-                <input id="tt" type="text" size="25">
+                <input id="tt" type="text" class="form-control" size="25">
              </p>
               <p><b>Наличие вод.удостоверения</b><Br>
-                 <input type="radio" value="ie"> Есть
-                 <input type="radio"  value="opera"> Нет
+                 <input type="radio" class="form-control" value="ie"> Есть
+                 <input type="radio" class="form-control" value="opera"> Нет
              </p>
               <p><b>Наличие Визы Шенген</b><br>
                  <input type="radio" value="ie"> Есть
@@ -129,6 +130,8 @@
               <div> 
    <p><input id="ee" class="col-center" type="submit" value="Отправить"></p>
 	</div>
+		     </form>
+	     <div id="errorMess">
 		</div>
 	</div>
 
