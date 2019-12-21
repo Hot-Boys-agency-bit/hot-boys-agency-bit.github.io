@@ -1,11 +1,10 @@
 <?php
 
-  
+   $name = $_POST['name'];
    $login = $_POST['login'];
    $pass = $_POST['pass'];
    $email = $_POST['email'];
    $tel = $_POST['tel'];
-   $name = $_POST['name'];
    $orientation = $_POST['orientation'];
 
    $login = htmlspecialchars($login);
