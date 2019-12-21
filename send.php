@@ -21,26 +21,25 @@
    $namee = $_POST['namee'];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   $login = htmlspecialchars($login);
-   $pass = htmlspecialchars($pass);
-   $email = htmlspecialchars($email);
-   $tel = htmlspecialchars($tel);
    $name = htmlspecialchars($name);
+   $birthday = htmlspecialchars($birthday);
+   $adress = htmlspecialchars($adress);
+   $citizenship = htmlspecialchars($citizenship);
    $orientation = htmlspecialchars($orientation);
+   $tel = htmlspecialchars($tel);
+   $home = htmlspecialchars($home);
+   $email = htmlspecialchars($email);
+   $pass = htmlspecialchars($pass);
+   $whatsapp = htmlspecialchars($whatsapp);
+   $telegram = htmlspecialchars($telegram);
+   $color = htmlspecialchars($color);
+   $colorh = htmlspecialchars($colorh);
+   $height = htmlspecialchars($height);
+   $weighs = htmlspecialchars($weighs);
+   $tatu = htmlspecialchars($tatu);
+   $advantage = htmlspecialchars($advantage);
+   $nam = htmlspecialchars($nam);
+   $namee = htmlspecialchars($namee);
 
    $login = urldecode($login);
    $pass = urldecode($pass);
