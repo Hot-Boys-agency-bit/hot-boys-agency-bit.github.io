@@ -1,11 +1,39 @@
 <?php
 
    $name = $_POST['name'];
-   $login = $_POST['login'];
-   $pass = $_POST['pass'];
-   $email = $_POST['email'];
-   $tel = $_POST['tel'];
+   $birthday = $_POST['birthday'];
+   $adress = $_POST['adress'];
+   $citizenship = $_POST['citizenship'];
    $orientation = $_POST['orientation'];
+   $tel = $_POST['tel'];
+   $home = $_POST['home'];
+   $email = $_POST['email'];
+   $pass = $_POST['pass'];   
+   $whatsapp = $_POST['whatsapp'];
+   $telegram = $_POST['telegram'];
+   $color = $_POST['color'];
+   $colorh = $_POST['colorh'];
+   $height = $_POST['height'];
+   $weighs = $_POST['weighs'];
+   $tatu = $_POST['tatu'];
+   $advantage = $_POST['advantage'];
+   $nam = $_POST['nam'];
+   $namee = $_POST['namee'];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    $login = htmlspecialchars($login);
    $pass = htmlspecialchars($pass);
