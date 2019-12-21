@@ -41,29 +41,72 @@
    $nam = htmlspecialchars($nam);
    $namee = htmlspecialchars($namee);
 
-   $login = urldecode($login);
-   $pass = urldecode($pass);
-   $email = urldecode($email);
-   $tel = urldecode($tel);
-   $name = urldecode($name);
-   $orientation = urldecode($orientation);
 
-   $login = trim($login);
-   $pass = trim($pass);
-   $email = trim($email);
-   $tel = trim($tel);
+   $name = urldecode($name);
+   $birthday = urldecode($birthday);
+   $adress = urldecode($adress);
+   $citizenship = urldecode($citizenship);
+   $orientation = urldecode($orientation);
+   $tel = urldecode($tel);
+   $home = urldecode($home);
+   $email = urldecode($email);
+   $pass = urldecode($pass);
+   $whatsapp = urldecode($whatsapp);
+   $telegram = urldecode($telegram);
+   $color = urldecode($color);
+   $colorh = urldecode($colorh);
+   $height = urldecode($height);
+   $weighs = urldecode($weighs);
+   $tatu = urldecode($tatu);
+   $advantage = urldecode($advantage);
+   $nam = urldecode($nam);
+   $namee = urldecode($namee);
+ 
+
+
    $name = trim($name);
+   $birthday = trim($birthday);
+   $adress = trim($adress);
+   $citizenship = trim($citizenship);
    $orientation = trim($orientation);
+   $tel = trim($tel);
+   $home = trim($home);
+   $email = trim($email);
+   $pass = trim($pass);
+   $whatsapp = trim($whatsapp);
+   $telegram = trim($telegram);
+   $color = trim($color);
+   $colorh = trim($colorh);
+   $height = trim($height);
+   $weighs = trim($weighs);
+   $tatu = trim($tatu);
+   $advantage = trim($advantage);
+   $nam = trim($nam);
+   $namee = trim($namee);
 
    
    if (mail("anvar.rakhmonoff@yandex.ru", 
            "Новое письмо с сайта",
-           ".$login.
-           ".$pass.
-           ".$email.
-           ".$tel.
            ".$name.
-           ".$orientation,
+           ".$birthday.
+           ".$adress.
+           ".$citizenship.
+           ".$orientation.
+	   ".$tel.
+           ".$home.
+           ".$email.
+           ".$pass.
+           ".$whatsapp.
+           ".$telegram.
+	   ".$color.
+           ".$colorh.
+           ".$height.
+           ".$weighs.
+           ".$tatu.
+           ".$advantage.	   
+           ".$nam.
+           ".$namee.	   
+	   ,
            "From: no-reply@mydomain.ru \r\n")
 ) {
    	 echo ("Письмо успешно отправлено!");
