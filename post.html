@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hot boys</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scriptt.js"></script>
+</head>
+<body>
+
+	
+	
+<header>
+   <div class="container">
+		<div class="row">
+			<div class="col-sm-3 logotype">
+				<img id="logotype" src="logo.png" class="img-responsive" width="200px">
+			</div>
+			<div class="col-sm-6  text-center descript">
+				<h3 >Эскорт услуги для женщин</h3>
+				<h5>по всей России</h5>
+			</div>
+			<div class="col-sm-3 phone_number">
+				<h3 ><a href="tel:+79530272760">+7(953)-027-27-60</a></h3>
+			</div>
+		</div>
+	</div>
+</header>
+<div id="bla" class="container">
+		<div class="row col">
+		  <ul class="list-inline">
+	    <li><a id="rar" href="index.html">Главная</a></li>
+            <li><a id="rar" href="Profiles.html">Наши лучшие парни</a></li>
+            <li><a id="rar" href="Reviews.html">Отзывы</a></li>
+            <li><a id="rar" href="post.html">Разместить анкету</a></li>
+            <li><a id="rar" href="about.html">О Нас</a></li>
+          </ul> 			
+		</div>
+</div>
+	
+	
+	
+<div class="container">
+<div class="section_header text-center">
+	
+	<h2>Разместить анкету</h2>
+</div>
+	
+</div>
+	
+	<form action="send.php" method="POST">
+                 <div class="container">
+              <h4>Личные данные</h4>
+
+              <p><b>Ф.И.О.</b><br>
+                <input id="tt" type="text" name="name" size="25">
+              </p>
+              <p><b>Дата рождения:</b><br>
+                <input id="tt" type="text" name="birthday" size="25">
+              </p>
+              <p><b>Адрес проживания:</b><br>
+                <input id="tt" type="text" name="adress" size="25">
+              </p>
+              <p><b>Гражданство:</b><br>
+                <input id="tt" type="text"  name="citizenship" size="25">
+              </p>
+              <p><b>Ориентация:</b><br>
+               <input id="tt" type="text" name="orientation" size="25">
+	      </p>       
+                      <h4>Контакты</h4>
+              <p><b>Мобильный телефон</b><br>
+                <input id="tt" type="text" name="tel" size="25">
+              </p>
+              <p><b>Дом.телефон</b><br>
+                <input id="tt" type="text" name="home" size="25">
+              </p>
+              <p><b>E-mail</b><br>
+                <input id="tt" type="email" name="email" size="25">
+             </p>
+              <p><b>Пароль</b><br>
+                <input id="tt" type="password" name="pass" size="25">
+             </p>			 
+               <p><b>WhatsApp</b><br>
+                <input id="tt" type="text" name="whatsapp" size="25">
+             </p>
+              <p><b>Telegram</b><br>
+                <input id="tt" type="text" name="telegram" size="25">
+             </p>
+	
+             <h4>Внешность</h4>
+              <p><b>Цвет  глаз</b><br>
+                <input id="tt" type="text" name="color" size="25">
+              </p>
+              <p><b>Цвет волос</b><br>
+                <input id="tt" type="text" name="сolorh" size="25">
+              </p>
+              <p><b>Рост</b><br>
+                <input id="tt" type="text" name="height" size="25">
+              </p>
+              <p><b>Вес</b><br>
+                <input id="tt" type="text" name="weighs" size="25">
+              </p>
+              <p><b>Наличие татуировок</b><br>
+                <input id="tt" type="text" name="tatu" size="25">
+              </p>
+              <p><b>Достоинство</b><br>
+                 <input id="tt" type="text" name="advantage" size="25">
+              </p>   
+		
+                    <h4>Доп.информация</h4>
+              <p><b>Образование</b><br>
+               <input id="tt" type="text" name="nam" size="25">
+              </p>
+              <p><b>Знание языков</b><br>
+                <input id="tt" type="text" name="namee" size="25">
+             </p>
+ 
+		 <p><input id="ee" type="submit" value="Отправить"></p>
+	</div>
+	</form>
+
+<footer>
+			<div class="section_header col text-center">
+				<h6>© 2015 - 2019 эскорт-в-россии.рф</h6> 
+				<h6>Все права защищены</h6>
+
+		
+	</div>
+</footer>
+</body>
+</html>
