@@ -97,7 +97,7 @@
            ".$tatu.
            ".$advantage.	   
            ".$nam,	   
-           "From: no-reply@mydomain.ru \r\n")
+           "From:https://hot-boys-agency-bit.github.io/post.html\r\n")
 ) {
    	 echo ("Письмо успешно отправлено!");
    }
