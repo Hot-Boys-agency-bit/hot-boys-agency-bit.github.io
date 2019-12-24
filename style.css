@@ -16,6 +16,12 @@ h2{
 	background-image: url(back2.png);
 	color:rgb(250,233,154);
 }
+#tit{
+  margin-top:-20px;
+}
+#tito{
+  margin-top:20px;
+}
 h3{
 	margin-top: 70px;
 	color:rgb(250,233,154);
