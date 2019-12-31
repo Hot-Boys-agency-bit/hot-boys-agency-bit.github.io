@@ -1,6 +1,9 @@
 body{
 	background-color: black;
 }
+#hut{
+ margin-top: 15px;
+}
 p{
 	color:white;
 }
