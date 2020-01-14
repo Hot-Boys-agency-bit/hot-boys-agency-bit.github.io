@@ -46,8 +46,8 @@ function adopt($text) {
 
 $headers = "MIME-Version: 1.0" . PHP_EOL .
 "Content-Type: text/html; charset=utf-8" . PHP_EOL .
-'From: '.adopt($project_name).' <'."https://hot-boys-agency-bit.github.io/post.html".'>' . PHP_EOL . //  от кого
-'Reply-To: '."https://hot-boys-agency-bit.github.io/post.html".'' . PHP_EOL;                         //  от кого
+'From: '.adopt($project_name).' <'."admin@unlun.pp.ua".'>' . PHP_EOL . //  от кого
+'Reply-To: '."admin@unlun.pp.ua".'' . PHP_EOL;                         //  от кого
 
 mail($admin_email, adopt($form_subject), $message, $headers );
 
