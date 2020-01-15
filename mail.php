@@ -52,14 +52,14 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 mail($admin_email, adopt($form_subject), $message, $headers );
 
 ini_set('short_open_tag', 'On');
-header('Refresh: 3; URL=/post.html');
+header('Refresh: 3; URL=/index.html');
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/post.html">
+<meta http-equiv="refresh" content="3; url=/index.html">
 <title>С вами свяжутся</title>
 <meta name="generator">
 <style>
