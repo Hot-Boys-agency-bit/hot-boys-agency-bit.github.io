@@ -23,7 +23,7 @@ if ( $method === 'POST' ) {
 } else if ( $method === 'GET' ) {
 
 	$project_name = trim($_GET["project_name"]);
-	$admin_email  = "anton.bukashin@yandex.ru"; // кому
+	$admin_email  = ""; // кому
 	$form_subject = trim($_GET["form_subject"]);
 
 	foreach ( $_GET as $key => $value ) {
