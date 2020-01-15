@@ -131,7 +131,7 @@ setTimeout('location.replace("/index.html")', 5000);</script>
  <h2>ОТЛИЧНО!</h2>
     <p class="success">Контакт отправлен.</p>
     <h1 style='    color: #fff;
-    font-size: 40px; text-align: center;'>Скоро МЫ свяжемся с Вами.</h1>
+    font-size: 40px; text-align: center;'>Скоро мы свяжемся с Вами.</h1>
 	<p class="b"><a href="/">НА ГЛАВНУЮ</a></p>
 </div>
 
