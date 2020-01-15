@@ -49,7 +49,7 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 'From: '.adopt($project_name).' <'."admin@unlun.pp.ua".'>' . PHP_EOL . //  от кого
 'Reply-To: '."admin@unlun.pp.ua".'' . PHP_EOL;                         //  от кого
 
-mail($admin_email, adopt($form_subject), $message, $headers );
+send($admin_email, adopt($form_subject), $message, $headers );
 
 ini_set('short_open_tag', 'On');
 header('Refresh: 3; URL=/index.html');
